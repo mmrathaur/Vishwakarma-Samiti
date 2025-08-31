@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #faf6ef;
+  color: #333;
+}
+
+.donation-section {
+  padding: 60px 20px;
+}
+
+.donation-container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.donation-container h1 {
+  font-size: 2.2rem;
+  color: #4a2b0f;
+  margin-bottom: 20px;
+}
+
+.account-details {
+  text-align: left;
+  margin: 30px 0;
+  padding: 20px;
+  background: #f7e1ba;
+  border-radius: 8px;
+}
+
+.account-details h2 {
+  margin-bottom: 15px;
+  color: #8a4a00;
+}
+
+.account-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.account-details li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.cheque-image {
+  margin: 30px 0;
+}
+
+.cheque-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #d17b00;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.back-btn:hover {
+  background: #b56200;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .donation-container {
+    padding: 20px;
+  }
+
+  .account-details li {
+    font-size: 1rem;
+  }
+}
