@@ -1,6 +1,7 @@
-html("/html/navbar.html")
+fetch("/Vishwakarma-Samiti/html/navbar.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("navbar").innerHTML = data;
 
   });
+
